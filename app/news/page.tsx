@@ -1,17 +1,18 @@
 "use client"
 
 import Image from "next/image"
-import AnimatedSection from "../components/AnimatedSection"
+import dynamic from "next/dynamic"
+
+const AnimatedSection = dynamic(() => import("../components/AnimatedSection"), { ssr: false })
 
 const newsItems = [
   {
     id: 1,
-    title: "Upcoming Hackathon: ResKill AllHacks",
-    date: "March 15, 2025",
+    title: "Code Conquerors Community Orientation",
+    date: "February 24, 2025",
     excerpt:
-      "Join us for an exciting hackathon experience with ResKill AllHacks. Showcase your skills, learn from experts, and win amazing prizes!",
-    image: "https://reskilll.com/images/allhacks/allhacks-banner.png",
-    link: "https://reskilll.com/allhacks",
+      "Join us for the official orientation of the Code Conquerors community! Learn about our mission, upcoming events, and how you can get involved in shaping the future of coding.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-8OcntNxFVRgFDmdEfDu2TOAOFaGTyJ.png",
   },
   // Add more news items here if needed
 ]
@@ -39,24 +40,7 @@ export default function News() {
                 <div className="mt-4 md:mt-0 md:ml-6">
                   <h2 className="text-2xl font-semibold mb-2 text-purple-300">{item.title}</h2>
                   <p className="text-purple-400 mb-4">{item.date}</p>
-                  <p className="text-gray-400 mb-4">{item.excerpt}</p>
-                  <a
-                    href={item.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-purple-400 hover:text-purple-300 transition-colors inline-flex items-center"
-                  >
-                    Read more
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5 ml-2"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                    </svg>
-                  </a>
+                  <p className="text-gray-400">{item.excerpt}</p>
                 </div>
               </div>
             </article>
