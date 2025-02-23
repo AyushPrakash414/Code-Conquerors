@@ -98,6 +98,24 @@ const members = [
       email: "231B079@juetguna.in",
     },
   },
+
+  {
+    id: 7,
+    name: "Satyam kumar",
+    role: "M.L Developer",
+    description:
+      "I am a curious and driven Machine Learning enthusiast, passionate about technology, neuroscience, and the cosmos. As a second-year CSE student, I love exploring how machines learn and applying this knowledge to solve complex problems and make predictions.",
+    image:
+      "https://iabmgwklaox45mux.public.blob.vercel-storage.com/WhatsApp%20Image%202025-02-17%20at%209.45.53%20PM-r3MNThjbtNl12kvvz9MwP8eU4UShd7.jpeg",
+    profileUrl: "https://github.com/isatyamks",
+    social: {
+      linkedin: "https://www.linkedin.com/in/isatyamks/",
+      twitter: "https://x.com/@isatyamks",
+      github: "https://github.com/isatyamks",
+      email: "231B079@juetguna.in"
+    },
+  },
+
 ]
 
 export default function Portfolio() {
