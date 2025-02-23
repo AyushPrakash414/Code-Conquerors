@@ -92,7 +92,7 @@ const Footer = () => {
               height={20}
               className="rounded-full"
             />
-            <p className="text-xs">Official Coding Club of Jaypee University of Engineering and Technology</p>
+            <p className="text-xs">Official Coding Community of Jaypee University of Engineering and Technology</p>
           </div>
         </div>
       </div>

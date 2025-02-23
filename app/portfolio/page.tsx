@@ -112,7 +112,7 @@ const members = [
       linkedin: "https://www.linkedin.com/in/isatyamks/",
       twitter: "https://x.com/@isatyamks",
       github: "https://github.com/isatyamks",
-      email: "231B079@juetguna.in"
+      email: "231B0297@juetguna.in"
     },
   },
 
