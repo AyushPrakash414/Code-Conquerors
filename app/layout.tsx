@@ -14,7 +14,6 @@ const poppins = Poppins({
 export const metadata = {
   title: "Code Conquerors",
   description: "Official website of the Code Conquerors college club",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -34,6 +33,3 @@ export default function RootLayout({
   )
 }
 
-
-
-import './globals.css'
