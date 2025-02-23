@@ -30,7 +30,7 @@ const Footer = () => {
                 Home
               </Link>
               <Link href="/portfolio" className="block text-gray-400 hover:text-purple-300 transition-colors">
-                Portfolio
+                Teams
               </Link>
               <Link href="/news" className="block text-gray-400 hover:text-purple-300 transition-colors">
                 News
