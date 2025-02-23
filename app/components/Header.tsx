@@ -49,7 +49,7 @@ const Header = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <NavLink href="/" label="Home" />
-          <NavLink href="/portfolio" label="Portfolio" />
+          <NavLink href="/portfolio" label="Teams" />
           <NavLink href="/Games" label="Games" />
           <NavLink href="/news" label="News" />
         </motion.div>
@@ -65,7 +65,7 @@ const Header = () => {
         >
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             <NavLink href="/" label="Home" onClick={toggleMenu} />
-            <NavLink href="/portfolio" label="Portfolio" onClick={toggleMenu} />
+            <NavLink href="/portfolio" label="Team" onClick={toggleMenu} />
             <NavLink href="/Games" label="Games" onClick={toggleMenu} />
             <NavLink href="/news" label="News" onClick={toggleMenu} />
           </div>
